@@ -2,9 +2,7 @@ import React from 'react';
 
 const User = (props) => {
     return (
-        <div>
-            User
-        </div>
+        <div>Name: {props.children} | Age: {props.age}</div>
     )
 }
 
